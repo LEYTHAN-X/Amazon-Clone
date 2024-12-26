@@ -69,8 +69,28 @@ const tshit= new Clothing( {
   sizeChartLink: "images/clothing-size-chart.png"
 });
 
-console.log(tshit);
-console.log(tshit.getPrice());
+/*
+const date=new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+*/
+
+//this concepts--->
+/*
+const object3={
+  method(){
+    console.log(this);
+  }
+};
+function logThis(){
+  console.log(this);
+}
+logThis.call('hello');
+console.log(this);
+[1,2,3].forEach(()=>{
+  console.log(this);
+})
+*/
 
 export const products = [
   {
